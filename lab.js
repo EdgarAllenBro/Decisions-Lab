@@ -29,7 +29,15 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-
+if (amysAge > brittanisAge) {
+  console.log(`Amy is older`)
+}
+else if (brittanisAge > amysAge) {
+  console.log(`Brittani is older`)
+}
+else {
+  console.log(`they are the same age`)
+}
 
 ////////// PROBLEM 3 //////////
 
@@ -38,7 +46,11 @@ var brittanisBirthYear = 1986
 */
 
 //CODE HERE
-
+if(amysBirthYear === brittanisBirthYear){
+  console.log("Amy & Brittani were born in the same year")
+}else{
+  console.log("Amy & Brittani were not born in the same year")
+}
 
 ////////// PROBLEM 4 //////////
 
@@ -51,7 +63,20 @@ let rain = true
 */
 
 //CODE HERE
-
+if(temperature >= 80 && rain === true){
+  console.log(`wear a t-shirt and take an umbrella`)
+} else if (temperature < 80 && temperature > 60 && rain === true) {
+  console.log (`wear a rain jacket`)
+} else if (temperature <= 60 && rain === true){
+  console.log(`wear a rain jacket and take an umbrella`)
+} 
+if(temperature >= 80 && rain === false){
+  console.log(`wear a t-shirt`)
+} else if (temperature < 80 && temperature > 60 && rain === false) {
+  console.log (`wear a light jacket`)
+} else if (temperature <= 60 && rain === false){
+  console.log(`wear a heavy jacket`)
+} 
 
 ////////// PROBLEM 5 //////////
 
