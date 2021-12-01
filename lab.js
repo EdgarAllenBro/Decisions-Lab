@@ -7,7 +7,14 @@
 */
 
 //CODE HERE
-var lovesCode = true
+let lovesCode = true
+
+if (lovesCode = true){
+  console.log(`I love coding`)
+}
+else if (lovesCode = false) {
+  console.log (`coding has its`)
+}
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29
