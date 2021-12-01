@@ -9,10 +9,10 @@
 //CODE HERE
 let lovesCode = true
 
-if (lovesCode = true){
+if (lovesCode ===ß true){
   console.log(`I love coding`)
 }
-else if (lovesCode = false) {
+else if (lovesCode === false) {
   console.log (`coding has its`)
 }
 
