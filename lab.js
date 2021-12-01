@@ -153,6 +153,11 @@ if (changeMyMind === true){
 
 //CODE HERE
 
+if(changeMyMind){
+  changeMyMind = false
+} else if(!changeMyMind){
+  changeMyMind = true
+}
 
 
 ////////// ADVANCED PROBLEMS //////////
