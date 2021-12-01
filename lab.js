@@ -9,7 +9,7 @@
 //CODE HERE
 let lovesCode = true
 
-if (lovesCode ===ß true){
+if (lovesCode === true){
   console.log(`I love coding`)
 }
 else if (lovesCode === false) {
