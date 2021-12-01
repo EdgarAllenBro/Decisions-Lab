@@ -125,6 +125,11 @@ let passingScore = 7
 
 //CODE HERE
 
+while (score !== passingScore) {
+  score++;
+console.log (`your score is not hight enough`)
+}
+
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
